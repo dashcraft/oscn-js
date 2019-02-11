@@ -5,7 +5,7 @@ A Node.js wrapper for the oscn api that's currently in alpha.
 ```
 const oscn = require('./index');
 
-npm -i -s oscn-js
+npm i s oscn-js
 or
 yarn oscn-js
 ```
