@@ -9,6 +9,7 @@
   "author": "Daniel Ashcraft",
   "license": "MIT",
   "dependencies": {
-    "node-fetch": "^2.3.0"
+    "node-fetch": "^2.3.0",
+    "s": "^0.1.1"
   }
 }
