@@ -3,8 +3,6 @@ A Node.js wrapper for the oscn api that's currently in alpha.
 
 # How To Use
 ```
-const oscn = require('./index');
-
 npm i s oscn-js
 or
 yarn oscn-js
