@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "A json rest api wrapper for the oscn alpha api.",
   "main": "index.js",
+  "keywords": ["oscn", "node","fetch","court"],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
