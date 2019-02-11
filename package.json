@@ -1,6 +1,6 @@
 {
   "name": "oscn-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A json rest api wrapper for the oscn alpha api.",
   "main": "index.js",
   "scripts": {
