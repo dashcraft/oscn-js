@@ -49,6 +49,19 @@ class OSCN {
 
     return fetch(this.returnUrl('/api/style',queryObj)).then(this.getJson);
   }
+
+  getCounts(county, cn){
+    if(!county || !cn){
+        return new Promise.reject(new Error(!county ? 'The county is required!': 'The case number is required!'))
+    }
+    
+    let queryObj = {
+        county,
+        cn
+    }
+
+    return fetch(this.returnUrl('/api/counts',queryObj)).then(this.getJson);
+  }
   
   getParties(county,cn){
     if(!county || !cn){
