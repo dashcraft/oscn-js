@@ -10,7 +10,7 @@ yarn oscn-js
 Then you can import it into your project like this:
 ```
 import OSCN from 'oscn-js';
-let os = new OSCN({api_key:"9FNhftdv4nmi28IGW6ePKPE5vIMv96OH"});
+let os = new OSCN({api_key:"YOUR_API_KEY"});
 
 os.getDockets(county,case_number).then() ..... 
 
